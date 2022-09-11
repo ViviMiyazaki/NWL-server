@@ -27,7 +27,8 @@ constructor(
       subject: 'Novo feedback',
       body:[
         `<div style: "font-size:16px";>`,
-        `<p>tipo de feedback: ${type}/p>`,
+        `<p>tipo de feedback: ${type}</p>`,
+        `<p>Comentário: ${type}</p>`,
         screenshot ? `<img src= "${screenshot}" />` : ``,
         `</div>`
       ].join('\n')
